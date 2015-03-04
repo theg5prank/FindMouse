@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4D82901AA6AD6A0033CAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D828F1AA6AD6A0033CAEA /* AppDelegate.m */; };
+		EF4D82931AA6AD6A0033CAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D82921AA6AD6A0033CAEA /* main.m */; };
+		EF4D82951AA6AD6A0033CAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D82941AA6AD6A0033CAEA /* Images.xcassets */; };
+		EF4D82981AA6AD6A0033CAEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4D82961AA6AD6A0033CAEA /* MainMenu.xib */; };
+		EF4D82A31AA6AD6A0033CAEA /* FindMouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D82A21AA6AD6A0033CAEA /* FindMouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4D829F1AA6AD6A0033CAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4D82831AA6AD6A0033CAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4D828A1AA6AD6A0033CAEA;
+			remoteInfo = FindMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4D828B1AA6AD6A0033CAEA /* FindMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4D828E1AA6AD6A0033CAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4D828F1AA6AD6A0033CAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4D82921AA6AD6A0033CAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4D82941AA6AD6A0033CAEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF4D82971AA6AD6A0033CAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF4D82991AA6AD6A0033CAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4D829E1AA6AD6A0033CAEA /* FindMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4D82A21AA6AD6A0033CAEA /* FindMouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMouseTests.m; sourceTree = "<group>"; };
+		EF4D82A41AA6AD6A0033CAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4D82881AA6AD6A0033CAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D829B1AA6AD6A0033CAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4D82821AA6AD6A0033CAEA = {
+			isa = PBXGroup;
+			children = (
+				EF4D828D1AA6AD6A0033CAEA /* FindMouse */,
+				EF4D82A11AA6AD6A0033CAEA /* FindMouseTests */,
+				EF4D828C1AA6AD6A0033CAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4D828C1AA6AD6A0033CAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D828B1AA6AD6A0033CAEA /* FindMouse.app */,
+				EF4D829E1AA6AD6A0033CAEA /* FindMouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4D828D1AA6AD6A0033CAEA /* FindMouse */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D828E1AA6AD6A0033CAEA /* AppDelegate.h */,
+				EF4D828F1AA6AD6A0033CAEA /* AppDelegate.m */,
+				EF4D82941AA6AD6A0033CAEA /* Images.xcassets */,
+				EF4D82961AA6AD6A0033CAEA /* MainMenu.xib */,
+				EF4D82991AA6AD6A0033CAEA /* Info.plist */,
+				EF4D82911AA6AD6A0033CAEA /* Supporting Files */,
+			);
+			path = FindMouse;
+			sourceTree = "<group>";
+		};
+		EF4D82911AA6AD6A0033CAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D82921AA6AD6A0033CAEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4D82A11AA6AD6A0033CAEA /* FindMouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D82A21AA6AD6A0033CAEA /* FindMouseTests.m */,
+				EF4D82A41AA6AD6A0033CAEA /* Info.plist */,
+			);
+			path = FindMouseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4D828A1AA6AD6A0033CAEA /* FindMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4D82A71AA6AD6A0033CAEA /* Build configuration list for PBXNativeTarget "FindMouse" */;
+			buildPhases = (
+				EF4D82871AA6AD6A0033CAEA /* Sources */,
+				EF4D82881AA6AD6A0033CAEA /* Frameworks */,
+				EF4D82891AA6AD6A0033CAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMouse;
+			productName = FindMouse;
+			productReference = EF4D828B1AA6AD6A0033CAEA /* FindMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4D829D1AA6AD6A0033CAEA /* FindMouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4D82AA1AA6AD6A0033CAEA /* Build configuration list for PBXNativeTarget "FindMouseTests" */;
+			buildPhases = (
+				EF4D829A1AA6AD6A0033CAEA /* Sources */,
+				EF4D829B1AA6AD6A0033CAEA /* Frameworks */,
+				EF4D829C1AA6AD6A0033CAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4D82A01AA6AD6A0033CAEA /* PBXTargetDependency */,
+			);
+			name = FindMouseTests;
+			productName = FindMouseTests;
+			productReference = EF4D829E1AA6AD6A0033CAEA /* FindMouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4D82831AA6AD6A0033CAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Conor Hughes";
+				TargetAttributes = {
+					EF4D828A1AA6AD6A0033CAEA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF4D829D1AA6AD6A0033CAEA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF4D828A1AA6AD6A0033CAEA;
+					};
+				};
+			};
+			buildConfigurationList = EF4D82861AA6AD6A0033CAEA /* Build configuration list for PBXProject "FindMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4D82821AA6AD6A0033CAEA;
+			productRefGroup = EF4D828C1AA6AD6A0033CAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4D828A1AA6AD6A0033CAEA /* FindMouse */,
+				EF4D829D1AA6AD6A0033CAEA /* FindMouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4D82891AA6AD6A0033CAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D82951AA6AD6A0033CAEA /* Images.xcassets in Resources */,
+				EF4D82981AA6AD6A0033CAEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D829C1AA6AD6A0033CAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4D82871AA6AD6A0033CAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D82931AA6AD6A0033CAEA /* main.m in Sources */,
+				EF4D82901AA6AD6A0033CAEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D829A1AA6AD6A0033CAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D82A31AA6AD6A0033CAEA /* FindMouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4D82A01AA6AD6A0033CAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4D828A1AA6AD6A0033CAEA /* FindMouse */;
+			targetProxy = EF4D829F1AA6AD6A0033CAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4D82961AA6AD6A0033CAEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4D82971AA6AD6A0033CAEA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4D82A51AA6AD6A0033CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF4D82A61AA6AD6A0033CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF4D82A81AA6AD6A0033CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FindMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4D82A91AA6AD6A0033CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FindMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4D82AB1AA6AD6A0033CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FindMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMouse.app/Contents/MacOS/FindMouse";
+			};
+			name = Debug;
+		};
+		EF4D82AC1AA6AD6A0033CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FindMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMouse.app/Contents/MacOS/FindMouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4D82861AA6AD6A0033CAEA /* Build configuration list for PBXProject "FindMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D82A51AA6AD6A0033CAEA /* Debug */,
+				EF4D82A61AA6AD6A0033CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4D82A71AA6AD6A0033CAEA /* Build configuration list for PBXNativeTarget "FindMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D82A81AA6AD6A0033CAEA /* Debug */,
+				EF4D82A91AA6AD6A0033CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4D82AA1AA6AD6A0033CAEA /* Build configuration list for PBXNativeTarget "FindMouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D82AB1AA6AD6A0033CAEA /* Debug */,
+				EF4D82AC1AA6AD6A0033CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4D82831AA6AD6A0033CAEA /* Project object */;
+}
