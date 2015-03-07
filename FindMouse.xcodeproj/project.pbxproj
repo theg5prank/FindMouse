@@ -12,6 +12,9 @@
 		EF4D82951AA6AD6A0033CAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D82941AA6AD6A0033CAEA /* Images.xcassets */; };
 		EF4D82981AA6AD6A0033CAEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4D82961AA6AD6A0033CAEA /* MainMenu.xib */; };
 		EF4D82A31AA6AD6A0033CAEA /* FindMouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D82A21AA6AD6A0033CAEA /* FindMouseTests.m */; };
+		EF5415B51AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5415B41AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.m */; };
+		EF7C8ADB1AABA52E008D4462 /* CMHDiscoDiskView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C8ADA1AABA52E008D4462 /* CMHDiscoDiskView.m */; };
+		EF7C8ADE1AABAF11008D4462 /* CMHQuitMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C8ADD1AABAF11008D4462 /* CMHQuitMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 		EF4D829E1AA6AD6A0033CAEA /* FindMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4D82A21AA6AD6A0033CAEA /* FindMouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMouseTests.m; sourceTree = "<group>"; };
 		EF4D82A41AA6AD6A0033CAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5415B31AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHMouseHighlightingWindow.h; sourceTree = "<group>"; };
+		EF5415B41AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHMouseHighlightingWindow.m; sourceTree = "<group>"; };
+		EF7C8AD91AABA52E008D4462 /* CMHDiscoDiskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHDiscoDiskView.h; sourceTree = "<group>"; };
+		EF7C8ADA1AABA52E008D4462 /* CMHDiscoDiskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHDiscoDiskView.m; sourceTree = "<group>"; };
+		EF7C8ADC1AABAF11008D4462 /* CMHQuitMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHQuitMenu.h; sourceTree = "<group>"; };
+		EF7C8ADD1AABAF11008D4462 /* CMHQuitMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHQuitMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +90,13 @@
 				EF4D82941AA6AD6A0033CAEA /* Images.xcassets */,
 				EF4D82961AA6AD6A0033CAEA /* MainMenu.xib */,
 				EF4D82991AA6AD6A0033CAEA /* Info.plist */,
+				EF5415B31AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.h */,
+				EF5415B41AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.m */,
 				EF4D82911AA6AD6A0033CAEA /* Supporting Files */,
+				EF7C8AD91AABA52E008D4462 /* CMHDiscoDiskView.h */,
+				EF7C8ADA1AABA52E008D4462 /* CMHDiscoDiskView.m */,
+				EF7C8ADC1AABAF11008D4462 /* CMHQuitMenu.h */,
+				EF7C8ADD1AABAF11008D4462 /* CMHQuitMenu.m */,
 			);
 			path = FindMouse;
 			sourceTree = "<group>";
@@ -202,7 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5415B51AAAA8DB00F5F0AE /* CMHMouseHighlightingWindow.m in Sources */,
+				EF7C8ADB1AABA52E008D4462 /* CMHDiscoDiskView.m in Sources */,
 				EF4D82931AA6AD6A0033CAEA /* main.m in Sources */,
+				EF7C8ADE1AABAF11008D4462 /* CMHQuitMenu.m in Sources */,
 				EF4D82901AA6AD6A0033CAEA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +399,7 @@
 				EF4D82A91AA6AD6A0033CAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4D82AA1AA6AD6A0033CAEA /* Build configuration list for PBXNativeTarget "FindMouseTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +408,7 @@
 				EF4D82AC1AA6AD6A0033CAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
