@@ -9,5 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 @interface CMHDiscoDiskView : NSView
-- (void)rotateColor;
+- (void)suspendDisco;
+- (void)resumeDisco;
 @end

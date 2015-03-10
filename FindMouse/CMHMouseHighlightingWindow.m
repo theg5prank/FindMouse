@@ -11,10 +11,6 @@
 
 #define RADIUS 75
 
-@interface CMHMouseHighlightingWindow ()
-@property (retain) dispatch_source_t color_rotation_timer;
-@end
-
 @implementation CMHMouseHighlightingWindow
 - (instancetype)init
 {
@@ -31,33 +27,18 @@
         [self setOpaque:NO];
         [self setIgnoresMouseEvents:YES];
         [self setContentView:[[CMHDiscoDiskView alloc] init]];
-
-        dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, dispatch_get_main_queue());
-        dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 50 * NSEC_PER_MSEC, 50 * NSEC_PER_MSEC);
-        dispatch_source_set_event_handler(timer, ^{
-            [(CMHDiscoDiskView*)[self contentView] rotateColor];
-        });
-        dispatch_source_set_cancel_handler(timer, ^{
-            self.color_rotation_timer = nil;
-        });
-        self.color_rotation_timer = timer;
     }
     return self;
 }
 
-- (void)dealloc
-{
-    dispatch_source_cancel(self.color_rotation_timer);
-}
-
 - (void)_enableColorRotation
 {
-    dispatch_resume(self.color_rotation_timer);
+    [(CMHDiscoDiskView*)[self contentView] resumeDisco];
 }
 
 - (void)_disableColorRotation
 {
-    dispatch_suspend(self.color_rotation_timer);
+    [(CMHDiscoDiskView*)[self contentView] suspendDisco];
 }
 
 - (void)mouseDidMove
