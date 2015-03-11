@@ -28,11 +28,18 @@
     CFMutableDictionaryRef opts = CFDictionaryCreateMutable(NULL, 1, &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
     CFDictionarySetValue(opts, kAXTrustedCheckOptionPrompt, kCFBooleanTrue);
     Boolean result = AXIsProcessTrustedWithOptions(opts);
-    if (!result)
+    while (!result)
     {
         NSAlert *alert = [[NSAlert alloc] init];
         [alert setMessageText:@"No AX."];
-        [alert runModal];
+        [alert addButtonWithTitle:@"try again"];
+        [alert addButtonWithTitle:@"quit"];
+        NSModalResponse response = [alert runModal];
+        if ( response == NSAlertSecondButtonReturn )
+        {
+            [[NSApplication sharedApplication] terminate:self];
+        }
+        result = AXIsProcessTrustedWithOptions(opts);
     }
     
     void (^eventHandler)(NSEvent *event) = ^(NSEvent *event) {
